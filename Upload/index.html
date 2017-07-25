@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Bob - Twitch Streamer</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="http://files.sitesforstreamers.com/free/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <section id="header" class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12" id="logo"></div>
+                <div class="col-md-8 col-sm-12 col-xs-12" id="streaminfo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="socialMedia">
+      <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <ul class="hover">
+            <li id="youtubeIcon" class="col"></li>
+            <li id="shopIcon" class="col"></li>
+            <li id="twitterIcon" class="col"></li>
+            <li id="redditIcon" class="col"></li>
+            <li id="snapchatIcon" class="col"></li>
+            <li id="paypalIcon" class="col"></li>
+            <li id="discordIcon" class="col"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Intro Section -->
+    <section id="content" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="followers bg">
+                        <h3 class="title" id="goalTitle"></h3>
+                        <div id="followers"></div>
+                        <div class="giveaway">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sponsor bg">
+                        <h3 class="title" id="sponsorTitle"></h3>
+                        <div id="sponsorSlot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="videos bg">
+                        <div class="title">
+                            <h3 id="videoTitle"></h3><button value="Broadcasts" id="videoType" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i>
+</button></div>  <div id="vodType"><h3>Broadcasts</h3></div>
+                            <div class="highlights hidden row"></div>
+                            <div class="broadcasts row"></div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-12">
+                    <div class="tweets bg">
+                        <h4 class="title" id="tweetsTitle"></h4>
+                        <div id="tweetlist"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-12">
+                    <div class="bio bg">
+                        <h3 class="title" id="bioTitle"></h3>
+                        <div id="bio"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <footer class="footer bg">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+              <p class="text-right" id="streamsite">Powered by <a href="http://streamsite.xyz"> <i class="fa fa-eye" aria-hidden="true"></i>
+streamSite</a></p>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/twitch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-fetcher/17.0.0/js/twitterFetcher_min.js"></script>
+    <script type="text/javascript" src="https://js.gleam.io/e.js" async="true"></script>
+</body>
+
+</html>

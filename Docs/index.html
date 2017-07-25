@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Documentation for StreamSite</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">StreamSite</span><span class="text-bold">Docs</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li><a href="http://streamsite.xyz">Home</a></li>
+                    <li class="active">Documentation</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Documentation</h1>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: July 10th, 2017 - Version 1.02</div>
+                </div><!--//doc-header-->
+                <div class="doc-body">
+                    <div class="doc-content">
+                        <div class="content-inner">
+                            <section id="installation-section" class="doc-section">
+                                <h2 class="section-title">Installation</h2>
+                                <div id="requirements"  class="section-block">
+                                    <h3 class="block-title">Requirements</h3>
+                                    <p>To install StreamSite you will only need a few things, nothing too complicated.  We have provided you with suggestions on the best/cheapest hosts and domain registrars, to get your site online in the best way possible (You are obviously not required to use our recommendations).
+                                    </p>
+                                    <ul class="list">
+                                      <li>Hosting</li>
+                                      <li>Domain</li>
+                                      <li>Text editor</li>
+                                      <li>Twitch account</li>
+                                      <li>Twitter account</li>
+                                      <li>For giveaways, a <a href="https://goo.gl/DCdAKy" target="_blank">Gleam.io</a> account</li>
+                                    </ul>
+                                </div><!--//section-block-->
+                                <div id="hosting"  class="section-block">
+                                    <h3 class="block-title">Hosting</h3>
+                                    <p>You will need your own web hosting to be able to upload StreamSite to.  We have a few suggestions of hosts we think you should choose that offer a good price and service.
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <h6>Our recommended hosts.</h6>
+                                            <ul>
+                                              <li><a href="https://goo.gl/jM9K4T" target="_blank">Hostgator</a> - First month of hosting for $0.01</li>
+                                              <li><a href="https://goo.gl/VQK4kx" target="_blank">BlueHost</a> - $3.95 /month (Includes free domain)</li>
+                                              <li><a href="https://goo.gl/3sNhZA" target="_blank">iPage</a> - $10.95 /month (Free domain, unlimited disk space) <i>Currently on offer at $1.99/m</i></li>
+                                            </ul>
+                                        </div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                                <div id="uploading"  class="section-block">
+                                    <h3 class="block-title">Uploading</h3>
+                                    <p>You will need to upload the contents of the <code>/upload/</code> folder.  There are a few methods you could use to do this, either with an FTP client or via your host's of choices online control panel.</p>
+                                    <p>Your host will have a guide and be able to help you upload to the site if you get stuck doing this.</p>
+                                </div><!--//section-block-->
+                                <div id="domain" class="section-block">
+                                  <h2 class="block-title">Domain</h2>
+                                  <p>If your host comes with a free domain then it will be automatically set up for you, however if it doesn't then you will need to register your own domain.</p>
+                                  <p>The only domain registrar we recommend is <a href="https://goo.gl/TctHwv" target="_blank">NameCheap</a>, there are others but Namecheap is the only one we have experience with and feel confident recommending. <b><i>They also provide .stream domains for under $1</i></b></p>
+                                  <p>To set up your domain, you will need to add your newly purchased domain to your site (Doing so should provide you with 2 Nameservers), thne you will need to change your domain's DNS settings via the Namecheap control panel to the ns servers provided by your host.  (Should ressemble ns1.host.com & ns2.host.com)</p>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+
+                            <section id="customization-section" class="doc-section">
+                                <h2 class="section-title">Customization</h2>
+                                <div class="section-block" id="settings">
+                                  <h2 class="block-title">Settings</h2>
+                                  <p>To customize the site to your liking the first thing you will want to do add your own details into the first group of settings.</p>
+                                  <pre><code class="language-javascript">//Site Settings
+var settings = {
+"logo" : "img/logo.png", //Your logo image, you can type text too
+"twitchUsername" : "twitch", //Your Twitch username
+"numberOfVideos" : 4, //Number of broadcasts/highlights to show on page
+"giveAwayMessage" : "We are doing a giveaway..", //Message to show when the goal has been reached
+"giveawayUrl" : "https://gleam.io/YLJoq/my-giveaway" //Gleam.io giveaway URL, refer to documentation to see how to get this
+}</code></pre>
+                                  <p>The comments help you understand what needs to be changed, <b>make sure you only edit the parts after the ":" </b></p>
+                                </div><!--//section-block-->
+                                <div id="sponsor" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Sponsor</h2>
+                                        <p>In this version of StreamSite, we only have added the facility to have one sponsor on the main part of the site, so we suggest you add your main one (Or referal code like in the example)</p>
+                                        <p><i>We are working on having room for multiple sponsors/referal codes, however at this time it destroys the design so we prefer to just work with one for now.</i></p>
+                                        <pre><code class="language-javascript">//SPONSOR CONFIG
+var sponsor = {
+  "main" : {
+    "img" : "img/g2a.png", //Image of your main sponsor
+    "url" : "http://www.g2a.com", //Website address of your sponsor/affiliate link
+    "text" : "<h3>Use coupon #coupon to get 3% off all games</h3>" //Text that appears under the sponsor image
+  }
+}</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="colors" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Colors</h2>
+                                        <p>From this part of the customisation page you can change the colors of the site, the comments next to the colors should explain what they are for.</p>
+                                        <p>You can put the colors in either RGB (rgb(24, 24, 24)), RGBA (rgba(0, 0, 0, 1)) or hex(#0000) format.</p>
+                                        <p>To choose you colors you can use a site like, <a href="https://www.w3schools.com/colors/colors_picker.asp">w3Schools color picker.</a></p>
+                                        <p><i>RGBA colors are just RGB with an opacity value added on the end, for example : rgba(24, 24, 24, 0.4) is dark gray with 40% opacity.</i></p>
+                                        <p><i>In future versions we are looking to add the option to add an image as backgrounds for certain elements.</i></p>
+                                        <pre><code class="language-javascript">// COLORS
+var colors = {
+  "header" : "#000", //The background color of the header (Where the logo and stream info is)
+  "socialBar" : "rgba(139, 101, 181, 1)", // The color of the bar under the header, where the social media icons are
+  "page" : "rgb(24, 24, 24)", //The background color of the page
+  "box" : "rgba(0, 0, 0, 1)", //The background color of the content boxes
+  "title" : "rgba(139, 101, 181, 1)", //Background color of the title sections on top of the boxes
+  "hover" : "#7bbee8" //The color certain elements change to on hover (Social media links for example)
+}</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="titles" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Titles</h2>
+                                        <p>To change the titles of the different sections, change the text below to what you want it to be.</p>
+                                        <pre><code class="language-javascript">//TITLE CONFIG
+var titles = {
+  "giveaway" : "Giveaway", //Text for the title of the goal section
+  "sponsor" : "Main sponsor", //Title for hte sponsor section
+  "video" : "Latest VODs", //Title for the video section
+  "tweets" : "Latest Tweets/ReTweets", //Title for the tweets section
+  "bio" : "About me" //Title for the Bio section
+}</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="social" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Social media icons</h2>
+                                        <p>To change a social media icon in the bar underneath the header, edit the url, icon values to what you want them to be.</p>
+                                        <p>To get the icon names, go to <a href="http://fontawesome.io/icons/">FontAwesome</a>, click on an icon and copy and paste the "fa-icon-name" into the settings.</p>
+                                        <p>Do not change the "id" value otherwise it will not show up.</p>
+                                        <p>If you do not put a value into the "url" the icon will not show up in the bar.</p>
+                                        <pre><code class="language-javascript">// SOCIAL MEDIA ICONS
+var socialMediaIcons = {
+  "twitter" : {
+    "url" : "http://twitter.com/twitch",
+    "icon" : "fa-twitter",
+    "id" : "#twitterIcon",
+  },
+  "shop" : {
+    "url" : "test",
+    "icon" : "fa-shopping-cart",
+    "id" : "#shopIcon"
+  },</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="bio" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Bio</h2>
+                                        <p>To change a social media icon in the bar underneath the header, edit the url, icon values to what you want them to be.</p>
+                                        <p>To get the icon names, go to <a href="http://fontawesome.io/icons/">FontAwesome</a>, click on an icon and copy and paste the "fa-icon-name" into the settings.</p>
+                                        <p>Do not change the "id" value otherwise it will not show up.</p>
+                                        <p>If you do not put a value into the "url" the icon will not show up in the bar.</p>
+                                        <pre><code class="language-javascript">//BIO CONFIG
+var bio = ' &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. &lt;/p&gt;\
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;\
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.  &lt;/p&gt;';
+var bioPic = 'img/bio.png'; //The pic you would like to use in the bio section
+</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="twitter" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Twitter Feed</h2>
+                                        <p>The only thing you really need to edit here is the "screenName" value, set it to the screen name of the Twitter account who's tweets you'd like to be displayed on the page.</p>
+                                        <pre><code class="language-javascript">// TWITTER CONFIG
+var configList = {
+    "profile": {
+      "screenName": 'twitter'  //Your twitter username
+    },
+    "domId": 'tweetlist',
+    "maxTweets": 5, //Number of tweets you want to show at a time
+    "enableLinks": true,
+    "showUser": false,
+    "showTime": true,
+    "showImages": false,
+    "lang": 'en'
+};
+</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                                <div id="giveaway" class="section-block">
+                                    <div class="section-block">
+                                        <h2 class="block-title">Setting up giveaway</h2>
+                                        <p>To change the giveaway, you must have an account on <a href="https://goo.gl/DCdAKy" target="_blank">Gleam.io</a></p>
+                                        <p>Then create a competition and choose the option to have a hosted landing page, this should give you a link like the one in the settings</p>
+                                        <p>Then simply change the link in the settings and it will be updated to your giveaway.</p>
+                                        <p>To get the "noGiveAwayMessage" text to show, delete the entry for the giveawayUrl, so it looks like <code>"giveawayUrl" : ""</code></p>
+                                        <pre><code class="language-javascript">"giveAwayMessage" : "We are doing a giveaway..", //Message to show when the goal has been reached
+"noGiveAwayMessage" : "There is no giveaway atm, sorry :(",
+"giveawayUrl" : "https://gleam.io/YLJoq/my-giveaway" //Gleam.io giveaway URL, refer to documentation to see how to get this
+</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+                          </section><!--//doc-section-->
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar hidden-xs">
+                        <nav id="doc-nav">
+                            <ul id="doc-menu" class="nav doc-menu" data-spy="affix">
+                                <li>
+                                    <a class="scrollto" href="#installation-section">Installation</a>
+                                    <ul class="nav doc-sub-menu">
+                                        <li><a class="scrollto" href="#requirements">Requirements</a></li>
+                                        <li><a class="scrollto" href="#hosting">Hosting</a></li>
+                                        <li><a class="scrollto" href="#uploading">Uploading</a></li>
+                                        <li><a class="scrollto" href="#domain">Domain</a></li>
+                                    </ul><!--//nav-->
+                                </li>
+                                <li>
+                                    <a class="scrollto" href="#customization-section">Customization</a>
+                                    <ul class="nav doc-sub-menu">
+                                        <li><a class="scrollto" href="#settings">Settings</a></li>
+                                        <li><a class="scrollto" href="#sponsor">Sponsor</a></li>
+                                        <li><a class="scrollto" href="#colors">Colors</a></li>
+                                        <li><a class="scrollto" href="#titles">Titles</a></li>
+                                        <li><a class="scrollto" href="#social">Social Icons</a></li>
+                                        <li><a class="scrollto" href="#bio">Bio</a></li>
+                                        <li><a class="scrollto" href="#twitter">Twitter</a></li>
+                                        <li><a class="scrollto" href="#giveaway">Giveaways</a></li>
+                                    </ul><!--//nav-->
+                                </li>
+                            </ul><!--//doc-menu-->
+                        </nav>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+
+    </div><!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" targe="_blank">Xiaoying Riley</a> for developers</small>
+
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
